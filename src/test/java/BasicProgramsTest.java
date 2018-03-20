@@ -1,4 +1,5 @@
 import com.thoughtworks.basicJavaExercise.BasicPrograms;
+import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertTrue;
@@ -6,9 +7,16 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;
 
 public class BasicProgramsTest {
+
+    private BasicPrograms basic;
+
+    @Before
+    public void setUp() throws Exception {
+        basic = new BasicPrograms();
+    }
+
     @Test
     public void checkIsEvenForEvenNumbers() {
-        BasicPrograms basic = new BasicPrograms();
         assertTrue(basic.isEven(10));
         assertTrue(basic.isEven(-8));
         assertTrue(basic.isEven(-6));
@@ -17,7 +25,6 @@ public class BasicProgramsTest {
 
     @Test
     public void checkIsEvenForOddNumbers() {
-        BasicPrograms basic = new BasicPrograms();
         assertFalse(basic.isEven(1));
         assertFalse(basic.isEven(3));
         assertFalse(basic.isEven(-5));
