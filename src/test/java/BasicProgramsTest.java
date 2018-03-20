@@ -5,7 +5,7 @@ import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;
 
-public class isEvenTest {
+public class BasicProgramsTest {
     @Test
     public void checkIsEvenForEvenNumbers() {
         BasicPrograms basic = new BasicPrograms();
