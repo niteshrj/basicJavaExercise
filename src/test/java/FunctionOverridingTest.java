@@ -1,5 +1,4 @@
 import com.thoughtworks.basicJavaExercise.Apple;
-import com.thoughtworks.basicJavaExercise.Fruit;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
