@@ -1,4 +1,4 @@
-import com.thoughtworks.basicJavaExercise.Apple;
+import com.thoughtworks.basicJavaExercise.FunctionOverriding.Apple;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

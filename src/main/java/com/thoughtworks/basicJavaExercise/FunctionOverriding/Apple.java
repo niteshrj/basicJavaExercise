@@ -1,6 +1,6 @@
-package com.thoughtworks.basicJavaExercise;
+package com.thoughtworks.basicJavaExercise.FunctionOverriding;
 
-public class Apple extends Fruit{
+public class Apple extends Fruit {
     public Apple(String color) {
         super("red");
     }

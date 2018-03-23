@@ -1,4 +1,4 @@
-import com.thoughtworks.basicJavaExercise.Orange;
+import com.thoughtworks.basicJavaExercise.FunctionOverriding.Orange;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

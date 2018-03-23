@@ -1,4 +1,4 @@
-package com.thoughtworks.basicJavaExercise;
+package com.thoughtworks.basicJavaExercise.FunctionOverriding;
 
 public class Fruit {
     String color;
