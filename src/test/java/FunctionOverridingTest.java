@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 public class FunctionOverridingTest {
     @Test
     public void isAppleTasty() {
-        Apple apple = new Apple();
+        Apple apple = new Apple("red");
         assertThat(apple.isTasty(),is(true));
     }
 }
